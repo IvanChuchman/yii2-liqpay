@@ -118,7 +118,7 @@ class LiqPay extends Object
 		$signature = $this->cnb_signature($params);
 
 		return sprintf('
-            <form method="POST" action="%s" accept-charset="utf-8">
+            <form method="POST" action="%s" accept-charset="utf-8" target="_blank">
                 %s
                 %s
                 '.$params['button'].'
