@@ -41,10 +41,13 @@ class LiqPay extends Object
 	private $_public_key;
 	private $_private_key;
 
-	public function init($public_key, $private_key)
+	public function init()
 	{
 		parent::init();
+	}
 
+	public function __construct($public_key, $private_key)
+	{
 		if (empty($public_key)) {
 			throw new InvalidArgumentException('public_key is empty');
 		}
