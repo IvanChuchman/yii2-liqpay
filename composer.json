@@ -1,0 +1,35 @@
+{
+	"name": "black-ice/yii2-liqpay",
+	"description": "Yii2 Liqpay Payment Module",
+	"keywords": ["yii2", "extension", "liqpay"],
+	"homepage": "https://github.com/lordblackice/yii2-liqpay",
+	"type": "yii2-extension",
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "Liqpay",
+			"email": "support@liqpay.com",
+			"homepage": "https://www.liqpay.com/",
+			"role": "Developer"
+		},
+		{
+			"name": "Ivan Chuchman",
+			"email": "ivan.chuchman@gmail.com",
+			"homepage": "https://github.com/lordblackice",
+			"role": "Contributor"
+		}
+	],
+	"support": {
+		"source": "https://github.com/lordblackice/yii2-liqpay"
+	},
+	"autoload": {
+		"psr-4": {
+			"black-ice\\liqpay\\": ""
+		}
+	},
+	"require": {
+		"php": ">=5.4.0",
+		"lib-curl": "*",
+		"yiisoft/yii2": "*"
+	}
+}
