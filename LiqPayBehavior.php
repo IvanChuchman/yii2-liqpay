@@ -42,4 +42,9 @@ class LiqPayBehavior extends Behavior
             ]);
         }
     }
+
+    public function actionCallback()
+    {
+        return $this;
+    }
 }
