@@ -1,7 +1,8 @@
 <?php
 
-namespace blackice\liqpay;
+namespace blackice\liqpay\behaviors;
 
+use blackice\liqpay\LiqPay;
 use yii;
 use yii\base\Behavior;
 
